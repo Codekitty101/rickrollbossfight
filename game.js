@@ -2,7 +2,7 @@ var Player = class Player {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.lives = 5;
+    this.lives = 8;
     this.cooldown = 1500;
     this.injured = false;
   }
