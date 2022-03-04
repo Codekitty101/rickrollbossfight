@@ -2,8 +2,8 @@ var Player = class Player {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.lives = 10;
-    this.cooldown = 1500;
+    this.lives = 30;
+    this.cooldown = 3000;
     this.injured = false;
   }
 }
